@@ -23,7 +23,8 @@
 }
 
 .header-image {
-    filter: brightness(60%);
+    filter: brightness(50%);
+
 }
 
 #first-article-first-text {
@@ -135,3 +136,32 @@ main hr {
     background-color: #eee;
     height: 1px;
 }
+.container {
+    position: relative;
+    color: white;
+  }
+
+.image-notes{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    color: #e6e4e4;
+    font-size: 18px;
+    margin-right: 450px;
+    font-weight: 200;
+}
+
+.image-container a {
+    position: absolute;
+    top: 300px;
+    text-decoration: none;
+    border: 0.2px solid #a51417;
+    color: #e6e4e4;
+    background: #a51417;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    left: 50px;
+  }
+ 
