@@ -2,17 +2,21 @@
     display: block !important;
     padding: 1.3em 0;
     margin-bottom: 0;
-    background-color: #3d3d3d;
+    background-color: #8F8F8F;
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .footer-widgets {
-    border-bottom: 1px solid #6c7373;
+    margin-top: 1em;
+    display: flex;
     clear: both;
     margin-bottom: 1em;
     text-align: center;
+  
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .site-info {
@@ -20,22 +24,26 @@
 }
 
 .footer-widgets .site-contact {
-    width: 100%;
+   
     margin-right: 0;
     text-align: center;
     border-top: none;
     margin-bottom: 1.8em;
 }
+.footer-widget-title{
+    margin-bottom: 3%;
+    font-size: 30px;
+}
 
 .widget-wrapper {
-    width: 90%;
-    margin: 0 auto;
-    text-align: left;
+  
+  
+    text-align: center;
 }
 
 .footer-widgets .widget-count-2 {
-    float: left;
-    width: 48.5%;
+  
+
 }
 
 footer a {
