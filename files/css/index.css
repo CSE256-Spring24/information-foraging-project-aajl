@@ -7,18 +7,18 @@
 
 #site-title {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 39%;
     transform: translate(-50%, -50%);
     color: #E5E5E5;
     display: block;
-    font-family: "Libre Baskerville", "Times New Roman", serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: calc( 75% - 65px);
     font-size: 4rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.2;
     text-decoration: none;
-    z-index: 2;
+    z-index: 1;
     background-color: transparent;
 }
 
@@ -137,31 +137,33 @@ main hr {
     height: 1px;
 }
 .container {
-    position: relative;
-    color: white;
+    z-index: 3;
   }
 
-.image-notes{
+  .image-notes {
     position: absolute;
-    top: 180px;
+    top: 292px;
     left: 50px;
     color: #e6e4e4;
     font-size: 18px;
-    margin-right: 450px;
+    margin-right: 782px;
     font-weight: 200;
+    line-height: 1.2;
 }
 
 .image-container a {
     position: absolute;
-    top: 300px;
+    top: 464px;
     text-decoration: none;
     border: 0.2px solid #a51417;
     color: #e6e4e4;
     background: #a51417;
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 48px;
+    font-size: 24px;
     cursor: pointer;
     left: 50px;
-  }
- 
+}
