@@ -1,4 +1,266 @@
 @import url("common.css");
 .image-container {
-    background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
+    position: relative;
+
+}
+#summer-camp-header{
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: calc( 75% - 65px);
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.apply-image {
+    size: fixed;
+    filter: brightness(50%);
+  
+}
+.image-notes {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    color: #e6e4e4;
+    font-size: 18px;
+    margin-right: 30%;
+    font-weight: 200;
+    line-height: 1.3;
+}
+
+.nursery-image {
+    margin-right: 5%;
+    filter: brightness(50%);
+    top:5%;
+    padding: 0%;
+}
+
+#right{    
+    float: right
+}
+
+main h1 {
+    margin-left: 30px;
+    color: white;
+}
+main h2 {
+    margin-left: 30px;
+    color: white;
+}
+main h3 {
+    margin-left: 30px;
+    color: white;
+}
+
+main p {
+    margin-left: 30px;
+    color: white;
+}
+
+#camp-date {
+    text-align: left;
+    background-color: #496B7B;
+    padding: 10px;
+    color: white;
+    margin-top: 4%;
+    /* color: white; */
+}
+
+#camp-tuition {
+    text-align: left;
+    background-color: #a51417;
+    padding: 10px;
+    color: white;
+    margin-top: 4%;
+    /* color: white; */
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    overflow: hidden;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+}
+
+#slideshow-entry {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+  }
+#slideshow-entry img {
+    width: 100%;
+    height: auto;
+}
+  
+
+/* Hide the images by default */
+/* .slideshow-entry {
+  display: none;
+} */
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: center;
+  top: 50%;
+  width: auto;
+  margin-top: 0px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.camp-image {
+    filter: brightness(50%);
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.slideshow-container {
+    max-width: 100%;
+    min-height: 100px;
+    clear: both;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-entry .text {
+    padding: 2em;
+    color: white;
+    font-size: 1.25em;
+    font-style: italic;
+    padding: 2.5em;
+}
+
+.slideshow-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.slideshow-buttons {
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #bbb;
+    color: #bbb;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.slideshow-dots {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.slideshow-heading h3 {
+    font-size: 1.76rem;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.image-container {
+    position: relative;
+}
+
+#site-title {
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: #E5E5E5;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: calc( 75% - 65px);
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+    z-index: 1;
+    background-color: transparent;
+}
+
+#registration {
+    text-align: left;
+    background-color: #496B7B;
+    padding: 10px;
+    color: white;
+    margin-top: 4%;
+    /* color: white; */
 }
