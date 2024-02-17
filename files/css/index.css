@@ -25,7 +25,7 @@
 
 .header-image {
     
-    filter: brightness(40%);
+    filter: brightness(50%);
     position: fixed;
     z-index: -2;
     margin-top: -6%;
@@ -49,7 +49,7 @@
     padding: 80px;
    
     margin-top: 11%;
-    /* color: white; */
+    /* color: #eee; */
 }
 #our-mission p {
     /* margin: 2%; */
@@ -59,13 +59,13 @@
     padding-right: 4%;
     /* margin-bottom: -1em; */
     font-size: 16px;
-    color: white;
+    color: #eee;
     /* text-align: center; */
     line-height: 1.5;
 }
 #our-mission h1 {
    
-    color: white;
+    color: #eee;
 }
 #visit-our-school {
     text-align: center;
@@ -92,7 +92,10 @@
     padding: 15px 89px;
     text-decoration: none;
 }
-
+#visit-our-school .contactbutton:hover a{
+    background-color: #a21417;
+    color: #eee;
+}
 #column-view {
     display: flex;
     flex-direction: column;
@@ -100,7 +103,7 @@
 }
 .classroom_h1 h1{
     text-align: center;
-    color: white;
+    color: #eee;
     padding-top: 7%;
 }
 .column {
@@ -138,14 +141,30 @@
     /* padding-left: 24px; */
     margin-bottom: 1em;
     font-size: 1.25em;
-    
+    font-weight: 600;
+
+}
+.teddy-bears:hover  {
+    color: #c4c4c4;
+}
+.panda-bears:hover  {
+    color: #c4c4c4;
+}
+.bear-cubs:hover  {
+    color: #c4c4c4;
+}
+.big-bears:hover  {
+    color: #c4c4c4;
+}
+.sun-bears:hover  {
+    color: #c4c4c4;
 }
 .column .inner-div a {
     text-align: center;
 }
 
 .column a.inline {
-    color: #ffffff;
+    color: #eee;
     text-decoration: underline;
     display: inline;
     padding-left: 3px;
@@ -155,7 +174,7 @@
 
 .entry__category a {
     font-size: 1em;
-    color: #ffffff;
+    color: #eee;
 }
 
 article h2 {
@@ -206,7 +225,7 @@ main hr {
     top: 464px;
     text-decoration: none;
     border: 0.2px solid #a51417;
-    color: #e6e4e4;
+    color: #eee;
     background: #a51417;
     padding-right: 5%;
     padding-left: 5%;
@@ -217,6 +236,10 @@ main hr {
     cursor: pointer;
     left: 50px;
 }
+a.applynow:hover {
+  background-color: #eee;
+  color: #a21417;
+} 
 .mission_container {
     background-color: #00000054;
     padding: 3%;
@@ -234,39 +257,46 @@ main hr {
 
 }
 .mission_header h2 {
-    color: white;
+    color: #eee;
 
 }
-h2#auto_gen_id_unq_46 {
-    position: relative;
-    left: -6%;
-}
-h2#auto_gen_id_unq_47 {
-    position: relative;
-    left: -2%;
-}
-h2#auto_gen_id_unq_48 {
-    position: relative;
-    left: 3%;
-}
-.icons {
+
+.icons1 {
     width: 8%;
-   
     filter: invert(1);
-}
-img#auto_gen_id_unq_42 {
     position: relative;
     right: 29%;
 }
-img#auto_gen_id_unq_44 {
+.icons3 {
+    width: 8%;
+    filter: invert(1);
     position: relative;
-    left: 29%;
+    right: 9%;
+}
+.icons2 {
+    width: 8%;
+    filter: invert(1);
+    position: relative;
+    left: 38%;
+}
+.mh1 {
+    position: relative;
+    left:-5%
+}
+.mh2{
+    position: relative;
+    left:-3%
+}
+.mh3 {
+    position: relative;
+    left:3%
 }
 .class_images {
     display: flex;
     justify-content: space-evenly;
     padding-top: 1%;
 }
+
 .column2{
     
     
@@ -296,7 +326,7 @@ img#auto_gen_id_unq_44 {
     .announcement_all {
         /* left: 1%; */
         /* position: relative; */
-        background-color: white;
+        background-color: #eee;
         padding-left: 11%;
         display: flex;
         /* text-align: center; */
@@ -315,25 +345,42 @@ img#auto_gen_id_unq_44 {
         text-align: center;
         margin-right: 40%;
         padding: 1%;
+        position: relative;
+    
+    }
+    .button_announcement{
+        margin: 0%;
+    }
+    .button_announcement:hover a{
+        background-color: #a21417;
+        color: #eee;
     }
     .surveys {
         padding-left: 20%;
         background-color: #eeeeee;
         padding-right: 20%;
     }
-    a#panda-bears {
+    .panda-bears {
         position: relative;
         left: -1%;
     }
-    a#teddy-bears {
+    .teddy-bears {
         position: relative;
         right: -1%;
     }
-    a#bear-cubs {
-        position: relative;
-        left: -2%;
+    .classes {
+        transition: transform 0.3s; /* Add a smooth transition effect for the zoom */
+
     }
-    a#big-bears {
+   .classes:hover {
+    transform: scale(1.1); /* Apply a small zoom when active or when dropdown is hovered */
+
+   }
+    .bear-cubs {
+        position: relative;
+        left: -1%;
+    }
+    .big-bears {
         position: relative;
         left: -1%;
     }
