@@ -1,4 +1,16 @@
-@import url("common.css");
+/* @import url("common.css"); */
 .image-container {
     background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
+}
+
+.apply-image {
+    opacity: .5;
+    height: auto;
+    width: 100%;
+}
+
+#application-header{
+    top: 0%;
+    margin-left: 10%;
+
 }
