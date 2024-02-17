@@ -8,7 +8,7 @@
 
 #site-title {
     position: absolute;
-    top: 57%;
+    top: 40%;
     left: 38%;
     transform: translate(-50%, -50%);
     color: #E5E5E5;
@@ -188,9 +188,9 @@ main hr {
     z-index: 3;
   }
 
-  .image-notes {
+.image-notes {
     position: absolute;
-    top: 60%;
+    top: 85%;
     left: 50px;
     color: #e6e4e4;
     font-size: 18px;
@@ -201,7 +201,7 @@ main hr {
 
 .image-container a {
     position: absolute;
-    top: 90%;
+    top: 110%;
     text-decoration: none;
     border: 0.2px solid #a51417;
     color: #e6e4e4;
