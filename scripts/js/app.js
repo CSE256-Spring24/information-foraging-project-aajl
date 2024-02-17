@@ -101,6 +101,7 @@ exports.Data = Data;
 exports.data = new Data(exports.urlData);
 Object.assign(window, { data: exports.data });
 
+
 },{}],3:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || (function () {
