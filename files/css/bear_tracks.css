@@ -1,18 +1,218 @@
 @import url("common.css");
-@import url("side_menu.css");
+@import url("slideshow.css");
+/*@import url("side_menu.css");*/
 @import url("staff_entry.css");
+
+/*
+.main-page-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+*/
+
+
+.image-container {
+    position: relative;
+}
+
+.header-info {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#page-header {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: #E5E5E5;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: calc( 75% - 65px);
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.header-image {
+    filter: brightness(50%);
+    height: auto;
+    width: 100%;
+}
+
+.image-notes {
+    position: absolute;
+    top: 95%;
+    left: 50px;
+    color: #e6e4e4;
+    font-size: 22px;
+    margin-right: 50%;
+    font-weight: 200;
+    line-height: 1.3;
+}
+
+#classroom-goals {
+    margin-top: 170px;
+    position: relative;
+    background-color: #496B7B;
+    padding: 40px;
+   
+    margin-top: 11%;
+}
+
+#classroom-goals p {
+    color: #e6e4e4;
+}
+#classroom-goals li {
+    color: #e6e4e4;
+}
+#classroom-goals h3 {
+    color: #e6e4e4;
+}
+/* 
+#classroom-goals {
+    top: 50%;
+    margin: 20px;
+} */
+
+#class-schedule {
+    margin: 20px;
+}
+.announcements h4 {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(208, 28, 41);
+    cursor: pointer;
+    font-family: "Libre Baskerville", "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+    text-decoration-color: rgb(208, 28, 41);
+}
+
+.announcements p {
+    margin-left: 20px;
+    color: rgb(99, 99, 99);
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 23px;
+    margin-bottom: 1em;
+}
+
+#small-image-collection {
+    overflow: auto;
+    margin: 0 auto;
+    width: 75%;
+    padding: 10px;
+    text-align: center; /* Added this line to center the contents */
+}
+
+#small-image-collection img {
+    width: 325px;
+    height: 325px;
+    display: inline-block; /* Added this line to prevent the images from breaking to a new line */
+}
+
+main strong {
+    font-size: 2.2rem;
+    color: #3d3d3d;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+main ul {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+main li {
+    font-size: 1.15em;
+    margin-bottom: 1em;
+}
+
+.classroom {
+    margin-top: 6em;
+    margin-bottom: 1em;
+    clear: both;
+    overflow: hidden;
+}
+
+.classroom img {
+    float: left;
+    margin-right: 2.5em;
+}
+
+.classroom p {
+    font-size: 1.15em;
+}
+
+#class-schedule strong {
+    color: rgb(85, 85, 85);
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+#class-schedule table {
+    border-collapse: collapse;
+}
+
+#class-schedule tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
 #class-schedule td {
     border: 1px solid #ddd;
 }
 
-.day-to-attend {
-    color: rgb(85, 85, 85);
-    cursor: default;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 20px;
+.staff-members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.individual-staff-member {
+    width: 48%; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+.individual-staff-member-inner-div {
+    border: 1px solid #ddd; /* Add border as needed */
+    padding: 10px; /* Adjust as needed */
+    text-align: center;
+}
+
+.individual-staff-member-data {
+      margin-top: 10px; /* Adjust as needed */
+}
+
+.heading {
+    margin: 20px;
+}
+
+#enrollment {
+    margin-left: 30px;
+    position: relative;
+    background-color: rgb(165, 20, 23);
+    padding: 40px;
+}
+#enrollment h3 {
+    margin-left: 30px;
+}
+
+.enrollment-form-container {
+    argin-left: 30px;
 }
 
 .enrollment-form-submit {
