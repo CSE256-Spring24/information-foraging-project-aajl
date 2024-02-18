@@ -150,18 +150,28 @@ html {
 }
 .teddy-bears:hover  {
     color: #c4c4c4;
+    transform: scale(1.1); /* Apply a small zoom when active or when dropdown is hovered */
+
 }
 .panda-bears:hover  {
     color: #c4c4c4;
+    transform: scale(1.1); /* Apply a small zoom when active or when dropdown is hovered */
+
 }
 .bear-cubs:hover  {
     color: #c4c4c4;
+    transform: scale(1.1); /* Apply a small zoom when active or when dropdown is hovered */
+
 }
 .big-bears:hover  {
     color: #c4c4c4;
+    transform: scale(1.1); /* Apply a small zoom when active or when dropdown is hovered */
+
 }
 .sun-bears:hover  {
     color: #c4c4c4;
+    transform: scale(1.1); /* Apply a small zoom when active or when dropdown is hovered */
+
 }
 .column .inner-div a {
     text-align: center;
@@ -361,31 +371,56 @@ a.applynow:hover {
         color: #eee;
     }
     .surveys {
-        padding-left: 20%;
+        padding-left: 22%;
         background-color: #eeeeee;
-        padding-right: 20%;
+        padding-right: 22%;
     }
     .panda-bears {
         position: relative;
         left: -1%;
+        transition: transform 0.3s; /* Add a smooth transition effect for the zoom */
+
+    }
+    .panda-bears span {
+        font-weight: 400;
+        font-size: smaller;
     }
     .teddy-bears {
         position: relative;
         right: -1%;
-    }
-    .classes {
         transition: transform 0.3s; /* Add a smooth transition effect for the zoom */
 
     }
-   .classes:hover {
-    transform: scale(1.1); /* Apply a small zoom when active or when dropdown is hovered */
-
-   }
+    .teddy-bears span {
+        font-weight: 400;
+        font-size: smaller;
+    }
+    
     .bear-cubs {
         position: relative;
         left: -1%;
+        transition: transform 0.3s; /* Add a smooth transition effect for the zoom */
+
+    }
+    .bear-cubs span {
+        font-weight: 400;
+        font-size: smaller;
     }
     .big-bears {
         position: relative;
         left: -1%;
+        transition: transform 0.3s; /* Add a smooth transition effect for the zoom */
+
+    }
+    .big-bears span {
+        font-weight: 400;
+        font-size: smaller;
+    }
+    .sun-bears {
+        transition: transform 0.3s; /* Add a smooth transition effect for the zoom */
+ 
+    }
+    .sun-bears span {
+        font-weight: 400;
+        font-size: smaller;
     }

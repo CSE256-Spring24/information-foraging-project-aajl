@@ -67,12 +67,28 @@ main p {
 
 #camp-date {
     text-align: left;
-    padding: 10px;
+    padding: 4%;
     color: white;
     margin-top: 1%;
     /* color: white; */
+    background-color: #496B7B ;
 }
-
+#bear-tracks h1{
+    color:#717171;
+}
+#bear-tracks p {
+    color:#717171;
+}
+#bear-tracks h3{
+    color:#a51417;
+    padding-bottom: 2%;
+}
+#registration h1 {
+    color:#717171;
+}
+#registration p {
+    color:#717171;
+}
 #camp-tuition {
     text-align: left;
     padding: 10px;
@@ -82,18 +98,18 @@ main p {
 }
 
 #hours{
-    background-color: #a51417;
+    
     text-align: left;
     padding: 10px;
-    color: white;
+    color:#717171;
     margin-top: 1%;
 }
 
 #bear-tracks{
-    background-color: #496B7B;
+    
     text-align: left;
     padding: 10px;
-    color: white;
+    color:#717171;
     margin-top: 1%;
 }
 
@@ -154,13 +170,18 @@ main p {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    /* color: #f2f2f2; */
+    /* font-size: 15px; */
+    /* padding: 8px 12px; */
+    position: absolute;
+    bottom: 8px;
+    width: 44%;
+    left: 111px;
+    /* text-align: center; */
+}
+.all{
+    padding-left:7%;
+    padding-right:7%;
 }
 
 
@@ -187,7 +208,7 @@ main p {
 }
 
 .camp-image {
-    filter: brightness(50%);
+    filter: blur(117px);
 }
 
 @keyframes fade {
@@ -205,11 +226,13 @@ main p {
 }
 
 .slideshow-entry .text {
+    font-weight: 600;
     padding: 2em;
     color: white;
-    font-size: 1.25em;
-    font-style: italic;
+    font-size: 16px;
+   
     padding: 2.5em;
+    /* margin-right: 42%; */
 }
 
 .slideshow-dot {
@@ -254,8 +277,8 @@ main p {
 
 #site-title {
     position: absolute;
-    top: 20%;
-    left: 38%;
+    top: 16%;
+    left: 42%;
     transform: translate(-50%, -50%);
     color: #E5E5E5;
     display: block;
@@ -271,9 +294,9 @@ main p {
 
 #registration {
     text-align: left;
-    background-color: #496B7B;
+    
     padding: 10px;
-    color: white;
+    color:#717171;
     margin-top: 4%;
 
 }
