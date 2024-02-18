@@ -1,5 +1,9 @@
 @import url("common.css");
 @import url("side_menu.css");
+@import url("slideshow.css");
+/*@import url("side_menu.css");*/
+@import url("staff_entry.css");
+
 main ul {
     margin-top: 1em;
 }
@@ -24,3 +28,92 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+
+.image-container {
+    position: relative;
+}
+
+.header-info {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#page-header {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: #E5E5E5;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: calc( 75% - 65px);
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.header-image {
+    filter: brightness(50%);
+    height: auto;
+    width: 1600px;
+    margin-right: 20%;
+}
+
+.image-notes {
+    position: absolute;
+    top: 55%;
+    left: 50px;
+    color: #e6e4e4;
+    font-size: 22px;
+    margin-right: 45%;
+    font-weight: 200;
+    line-height: 1.3;
+}
+
+#classroom-goals {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    background-color: #496B7B;
+    padding: 40px;
+   
+    margin-top: 5%;
+}
+
+#classroom-goals p {
+    color: #e6e4e4;
+}
+#classroom-goals li {
+    color: #e6e4e4;
+}
+#classroom-goals h3 {
+    color: #e6e4e4;
+}
+
+.download {
+    width: 100%;
+    left: 50px;
+    background-color: #a51417;
+    padding: 10px;
+    color: white;
+}
+
+.download-text{
+    left: 50px;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
