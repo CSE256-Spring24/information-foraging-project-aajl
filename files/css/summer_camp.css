@@ -65,7 +65,7 @@ main p {
     color: white;
 }
 
-#camp-date {
+div#camp-date {
     text-align: left;
     padding: 4%;
     color: white;
@@ -91,11 +91,15 @@ main p {
 }
 #camp-tuition {
     text-align: left;
-    padding: 10px;
-    color: white;
+    padding: 4%;
     margin-top: 1%;
-    /* color: white; */
+    color: black;
 }
+
+div#camp-tuition > p, div#camp-tuition > h1 {
+    color: black;
+}
+
 
 #hours{
     
@@ -300,3 +304,19 @@ main p {
     margin-top: 4%;
 
 }
+
+.download {
+    color: #eee;
+    background-color: #a51417;
+    border-radius: 48px;
+    font-size: 1rem;
+    line-height: 1.1;
+    padding: 15px 89px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.download:hover {
+    background-color: #eee;
+    color: #a21417;
+  } 
