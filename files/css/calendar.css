@@ -1,9 +1,36 @@
 @import url("common.css");
 .image-container {
+    filter: brightness(40%);
     background-size: 100% 900px;
     background-image: url("https://nurseryschool.wustl.edu/files/2017/09/170914_jjn_nursery_school_008.jpg");
 }
-
+main h1 {
+    color: rgb(255 255 255);
+    font-size: 4rem;
+    letter-spacing: 0.4px;
+    line-height: 48px;
+    margin-bottom: 32px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+main p {
+    font-size: 16px;
+}
+main h2 {
+    top: 8%;
+    left: 10%;
+    margin-right: 53%;
+    position: absolute;
+    color: rgb(255 255 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27.8548px;
+    margin-bottom: 24px;
+}
+.all{
+    padding:10%;
+}
 .calendar-session {
     border: 1px solid #eee;
     margin-top: 1em;

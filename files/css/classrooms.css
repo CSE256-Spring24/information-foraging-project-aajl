@@ -9,8 +9,9 @@ main ul {
 }
 
 main li {
-    font-size: 1.15em;
-    margin-bottom: 1em;
+    font-size: 16px;
+    margin-bottom: 0.6em;
+    margin-right: 31%;
 }
 
 .classroom {
@@ -26,7 +27,9 @@ main li {
 }
 
 .classroom p {
-    font-size: 1.15em;
+    font-size: 16px;
+    margin-bottom: 0.6em;
+    margin-right: 31%;
 }
 
 .image-container {
@@ -41,7 +44,7 @@ main li {
 #page-header {
     position: absolute;
     top: 30%;
-    left: 38%;
+    left: 45%;
     transform: translate(-50%, -50%);
     color: #E5E5E5;
     display: block;
@@ -54,22 +57,25 @@ main li {
     z-index: 1;
     background-color: transparent;
 }
+.allpage{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .header-image {
-    filter: brightness(50%);
-    height: auto;
-    width: 1600px;
-    margin-right: 20%;
+    filter: brightness(40%);
+
+  
 }
 
 .image-notes {
     position: absolute;
     top: 55%;
-    left: 50px;
+    left: 154px;
     color: #e6e4e4;
-    font-size: 22px;
-    margin-right: 45%;
-    font-weight: 200;
+    font-size: 16px;
+    margin-right: 57%;
+    font-weight: 600;
     line-height: 1.3;
 }
 
@@ -105,15 +111,3 @@ main li {
     left: 50px;
 }
 
-a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color: red;
-  }

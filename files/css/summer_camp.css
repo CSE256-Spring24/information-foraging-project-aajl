@@ -48,63 +48,72 @@
 }
 
 main h1 {
-    margin-left: 30px;
+    
     color: white;
 }
 main h2 {
-    margin-left: 30px;
+   
     color: white;
 }
 main h3 {
-    margin-left: 30px;
+  
     color: white;
 }
 
 main p {
-    margin-left: 30px;
+ 
     color: white;
 }
 
 div#camp-date {
     text-align: left;
     padding: 4%;
+    color: white;
     margin-top: 1%;
-    color: black;
+    /* color: white; */
+    background-color: #496B7B ;
 }
-
-h1.camp-dates-title {
-    color: black;
+#bear-tracks h1{
+    color:#717171;
 }
-
-div#camp-date > p {
-    color: black;
+#bear-tracks p {
+    color:#717171;
 }
-
-div#camp-tuition {
+#bear-tracks h3{
+    color:#a51417;
+    padding-bottom: 2%;
+}
+#registration h1 {
+    color:#717171;
+}
+#registration p {
+    color:#717171;
+}
+#camp-tuition {
     text-align: left;
-    padding: 4%;
+   
     margin-top: 1%;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 div#camp-tuition > p, div#camp-tuition > h1 {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 
 #hours{
-    background-color: #a51417;
+    
     text-align: left;
-    padding: 4%;
-    color: white;
+
+    color:#717171;
     margin-top: 1%;
 }
 
 #bear-tracks{
-    background-color: #496B7B;
+    
     text-align: left;
-    padding: 4%;
-    color: white;
+    padding: 10px;
+
     margin-top: 1%;
 }
 
@@ -165,13 +174,18 @@ div#camp-tuition > p, div#camp-tuition > h1 {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    /* color: #f2f2f2; */
+    /* font-size: 15px; */
+    /* padding: 8px 12px; */
+    position: absolute;
+    bottom: 8px;
+    width: 44%;
+    left: 63px;
+    /* text-align: center; */
+}
+.all{
+    padding-left:7%;
+    padding-right:7%;
 }
 
 
@@ -198,7 +212,7 @@ div#camp-tuition > p, div#camp-tuition > h1 {
 }
 
 .camp-image {
-    filter: brightness(50%);
+    filter: brightness(40%);
 }
 
 @keyframes fade {
@@ -216,11 +230,13 @@ div#camp-tuition > p, div#camp-tuition > h1 {
 }
 
 .slideshow-entry .text {
+    font-weight: 600;
     padding: 2em;
     color: white;
-    font-size: 1.25em;
-    font-style: italic;
+    font-size: 16px;
+   
     padding: 2.5em;
+    /* margin-right: 42%; */
 }
 
 .slideshow-dot {
@@ -265,8 +281,8 @@ div#camp-tuition > p, div#camp-tuition > h1 {
 
 #site-title {
     position: absolute;
-    top: 20%;
-    left: 38%;
+    top: 16%;
+    left: 42%;
     transform: translate(-50%, -50%);
     color: #E5E5E5;
     display: block;
@@ -282,9 +298,9 @@ div#camp-tuition > p, div#camp-tuition > h1 {
 
 #registration {
     text-align: left;
-    background-color: #496B7B;
-    padding: 4%;
-    color: white;
+    
+    padding: 10px;
+    color:#717171;
     margin-top: 4%;
 
 }
@@ -303,4 +319,6 @@ div#camp-tuition > p, div#camp-tuition > h1 {
 .download:hover {
     background-color: #eee;
     color: #a21417;
+    border: #a21417;
+    border: 0.2px solid #a51417;
   } 

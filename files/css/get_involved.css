@@ -1,10 +1,37 @@
 @import url("common.css");
 /*@import url("side_menu.css");*/
 
-#page-content {
-    margin: 20px;
-}
+
 .image-container {
+    filter: brightness(40%);
     background-size: 100% 900px;
     background-image: url("https://nurseryschool.wustl.edu/files/2017/09/170914_jjn_nursery_school_008.jpg");
+}
+main h1 {
+    color: rgb(255 255 255);
+    font-size: 4rem;
+    letter-spacing: 0.4px;
+    line-height: 48px;
+    margin-bottom: 32px;
+    position: absolute;
+    top: 6%;
+    left: 10%;
+}
+main p {
+    font-size: 16px;
+}
+main h2 {
+    top: 10%;
+    left: 10%;
+    margin-right: 53%;
+    position: absolute;
+    color: rgb(255 255 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27.8548px;
+    margin-bottom: 24px;
+}
+.all{
+    padding: 9%;
+    margin-right: 32%;
 }

@@ -13,8 +13,8 @@
 
 #page-header {
     position: absolute;
-    top: 30%;
-    left: 38%;
+    top: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
     color: #E5E5E5;
     display: block;
@@ -29,36 +29,72 @@
 }
 
 .header-image {
-    filter: brightness(50%);
+    filter: brightness(40%);
     height: auto;
     width: 100%;
+    position: relative;
+    z-index: -1;
+
 }
+
 
 .image-notes {
     position: absolute;
-    top: 60%;
-    left: 50px;
+    top: 69%;
+    left: 11%;
     color: #e6e4e4;
-    font-size: 22px;
-    margin-right: 30%;
-    font-weight: 200;
+    font-size: 16px;
+    margin-right: 51%;
+    font-weight: 600;
     line-height: 1.3;
 }
 
 .spanish {
     text-align: left;
     background-color: #496B7B;
-    padding: 20px;
+    padding-left: 10%;
+    padding-right: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     color: #e6e4e4;
-    margin-top: 6%;
-}
+    margin-top: 5%;
 
-.spanish h1 {
+}
+.science{
+    text-align: left;
+    
+    padding-left: 10%;
+    padding-right: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.art {
+    text-align: left;
+    
+    padding-left: 10%;
+    padding-right: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.music{
+    text-align: left;
+    
+    padding-left: 10%;
+    padding-right: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.spanish h2 {
     color: #e6e4e4;
+    font-weight: 600;
 }
-
+main h2{
+    font-weight: 600;
+}
 .spanish p {
     color: #e6e4e4;
+    font-size: 16px;
 }
 
 .spanish a{
@@ -68,17 +104,19 @@
 .art {
     text-align: left;
     background-color: #a51417;
-    padding: 20px;
+
     color: #e6e4e4;
     margin-top: 4%;
 }
 
-.art h1 {
+.art h2 {
     color: #e6e4e4;
+    font-weight: 600;
 }
 
 .art p {
     color: #e6e4e4;
+    font-size: 16px;
 }
 
 .art a{
@@ -87,10 +125,10 @@
 
 .staff-members-container {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
 }
 
 .individual-staff-member {
@@ -102,9 +140,12 @@
 .individual-staff-member-inner-div {
     border: 1px solid #ddd; /* Add border as needed */
     padding: 10px; /* Adjust as needed */
-    text-align: center;
+    text-align: left;
 }
 
 .individual-staff-member-data {
       margin-top: 10px; /* Adjust as needed */
+}
+main p{
+    font-size: 16px;
 }
