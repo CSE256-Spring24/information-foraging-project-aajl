@@ -1,2 +1,63 @@
 @import url("common.css");
 @import url("side_menu.css");
+.image-container {
+    height: 463px;
+    background-size: 166% 363%;
+    background-image: url(https://nurseryschool.wustl.edu/files/2017/09/170914_jjn_nursery_school_008.jpg);
+    filter: brightness(0.5);
+    background-color: black;
+}
+
+    .first_part {
+        /* color: white; */
+        margin-left: 6%;
+        margin-right:41%;
+        background-color: #314852f7;
+        padding-left: 6%;
+        padding-right: 6%;
+        position: absolute;
+        top: 9%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+}
+.second_part{
+padding: 10%;
+font-size: 16px;
+}
+.button_announcement a {
+    color: #a51417;
+    border: #a51417;
+    border-width: 3px;
+    border-radius: 48px;
+    border-style: solid;
+    font-size: 1rem;
+ text-decoration: none;
+ padding: 4%;
+}
+.button_announcement {
+    margin-right: 70%;
+    margin-left: 0%;
+    padding-top: 2%;
+}
+.button_announcement:hover a{
+    background-color: #a21417;
+    color: #eee;
+}
+.second_part p{
+    font-size: 16px;
+}
+#page-content {
+    background-color: #eee;
+   
+}
+.first_part h1{
+    color: #eee;
+
+}
+.first_part h2{
+    color: #eee;
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-right: 4%;
+}

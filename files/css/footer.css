@@ -13,7 +13,7 @@
     display: flex;
     clear: both;
     margin-bottom: 1em;
-    text-align: center;
+    text-align: left;
   
     justify-content: space-evenly;
     flex-direction: row;
@@ -21,6 +21,9 @@
 
 .site-info {
     clear: both;
+}
+ul{
+    list-style-type: none;
 }
 
 .footer-widgets .site-contact {
@@ -34,12 +37,33 @@
     margin-bottom: 3%;
     font-size: 30px;
 }
-
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 .widget-wrapper {
   
   
-    text-align: center;
+    text-align: left;
 }
+#contact-form button{
+    border: 0.2px solid #a51417;
+    color: #e6e4e4;
+    background: #a51417;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    border-radius: 48px;
+    margin-top: 2%;
+    margin-left: 216px;
+}
+#contact-form:hover a{
+    background-color: #eee;
+    color: #a51417;
+    }
+   
 
 .footer-widgets .widget-count-2 {
   

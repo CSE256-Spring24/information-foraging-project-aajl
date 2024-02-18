@@ -4,11 +4,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#staff-member-description {
+    padding-left: 19%;
+    padding-right:39%;
+}
 body main {
     color: #555;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
     line-height: 1.45;
 }
 
