@@ -1,8 +1,90 @@
 @import url("common.css");
-@import url("side_menu.css");
+@import url("slideshow.css");
+/*@import url("side_menu.css");*/
 @import url("staff_entry.css");
+
+/*
+.main-page-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+*/
+
+
+.image-container {
+    position: relative;
+}
+
+.header-info {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#page-header {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: #E5E5E5;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: calc( 75% - 65px);
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.header-image {
+    filter: brightness(50%);
+    height: auto;
+    width: 100%;
+}
+
+.image-notes {
+    position: absolute;
+    top: 95%;
+    left: 50px;
+    color: #e6e4e4;
+    font-size: 22px;
+    margin-right: 50%;
+    font-weight: 200;
+    line-height: 1.3;
+}
+
+#classroom-goals {
+    margin-top: 170px;
+    position: relative;
+    background-color: #496B7B;
+    padding: 40px;
+   
+    margin-top: 11%;
+}
+
+#classroom-goals p {
+    color: #e6e4e4;
+}
+#classroom-goals li {
+    color: #e6e4e4;
+}
+#classroom-goals h3 {
+    color: #e6e4e4;
+}
+/* 
+#classroom-goals {
+    top: 50%;
+    margin: 20px;
+} */
+
+#class-schedule {
+    margin: 20px;
+}
 .announcements h4 {
-    margin-top: 1em;
+    margin-left: 20px;
+    margin-top: 20px;
     color: rgb(208, 28, 41);
     cursor: pointer;
     font-family: "Libre Baskerville", "Times New Roman", serif;
@@ -14,6 +96,7 @@
 }
 
 .announcements p {
+    margin-left: 20px;
     color: rgb(99, 99, 99);
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -24,7 +107,16 @@
 
 #small-image-collection {
     overflow: auto;
-    clear: both;
+    margin: 0 auto;
+    width: 75%;
+    padding: 10px;
+    text-align: center; /* Added this line to center the contents */
+}
+
+#small-image-collection img {
+    width: 325px;
+    height: 325px;
+    display: inline-block; /* Added this line to prevent the images from breaking to a new line */
 }
 
 main strong {
@@ -79,4 +171,32 @@ main li {
 
 #class-schedule td {
     border: 1px solid #ddd;
+}
+
+.staff-members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.individual-staff-member {
+    width: 48%; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+.individual-staff-member-inner-div {
+    border: 1px solid #ddd; /* Add border as needed */
+    padding: 10px; /* Adjust as needed */
+    text-align: center;
+}
+
+.individual-staff-member-data {
+      margin-top: 10px; /* Adjust as needed */
+}
+
+.heading {
+    margin: 20px;
 }
