@@ -29,7 +29,7 @@
 }
 
 .header-image {
-    filter: blur(67px);
+    filter: brightness(40%);
     height: auto;
     width: 100%;
     position: relative;

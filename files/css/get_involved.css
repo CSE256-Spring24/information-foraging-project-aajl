@@ -3,7 +3,7 @@
 
 
 .image-container {
-    filter: blur(67px);
+    filter: brightness(40%);
     background-size: 100% 900px;
     background-image: url("https://nurseryschool.wustl.edu/files/2017/09/170914_jjn_nursery_school_008.jpg");
 }

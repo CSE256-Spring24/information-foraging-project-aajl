@@ -212,7 +212,7 @@ div#camp-tuition > p, div#camp-tuition > h1 {
 }
 
 .camp-image {
-    filter: blur(117px);
+    filter: brightness(40%);
 }
 
 @keyframes fade {
