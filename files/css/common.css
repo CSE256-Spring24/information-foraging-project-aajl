@@ -6,7 +6,10 @@
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#staff-member-description {
+    padding-left: 19%;
+    padding-right:39%;
+}
 body main {
     color: #555;
     
