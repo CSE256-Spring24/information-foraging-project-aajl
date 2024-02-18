@@ -65,24 +65,37 @@ main p {
     color: white;
 }
 
-#camp-date {
+div#camp-date {
     text-align: left;
-    padding: 10px;
+    padding: 4%;
     margin-top: 1%;
     color: black;
 }
 
-#camp-tuition {
+h1.camp-dates-title {
+    color: black;
+}
+
+div#camp-date > p {
+    color: black;
+}
+
+div#camp-tuition {
     text-align: left;
-    padding: 10px;
+    padding: 4%;
     margin-top: 1%;
     color: black;
 }
+
+div#camp-tuition > p, div#camp-tuition > h1 {
+    color: black;
+}
+
 
 #hours{
     background-color: #a51417;
     text-align: left;
-    padding: 10px;
+    padding: 4%;
     color: white;
     margin-top: 1%;
 }
@@ -90,7 +103,7 @@ main p {
 #bear-tracks{
     background-color: #496B7B;
     text-align: left;
-    padding: 10px;
+    padding: 4%;
     color: white;
     margin-top: 1%;
 }
@@ -270,7 +283,7 @@ main p {
 #registration {
     text-align: left;
     background-color: #496B7B;
-    padding: 10px;
+    padding: 4%;
     color: white;
     margin-top: 4%;
 
