@@ -1,7 +1,19 @@
 @import url("common.css");
-@import url("side_menu.css");
+/*@import url("side_menu.css");*/
 @import url("slideshow.css");
 @import url("staff_entry.css");
+
+#page-content {
+    margin: 20px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
 tr {
     display: table-row;
     background-color: #eee;
