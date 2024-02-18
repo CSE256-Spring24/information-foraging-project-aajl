@@ -48,20 +48,20 @@
 }
 
 main h1 {
-    margin-left: 30px;
+    
     color: white;
 }
 main h2 {
-    margin-left: 30px;
+   
     color: white;
 }
 main h3 {
-    margin-left: 30px;
+  
     color: white;
 }
 
 main p {
-    margin-left: 30px;
+ 
     color: white;
 }
 
@@ -91,20 +91,20 @@ div#camp-date {
 }
 #camp-tuition {
     text-align: left;
-    padding: 4%;
+   
     margin-top: 1%;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 div#camp-tuition > p, div#camp-tuition > h1 {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 
 #hours{
     
     text-align: left;
-    padding: 10px;
+
     color:#717171;
     margin-top: 1%;
 }
@@ -113,7 +113,7 @@ div#camp-tuition > p, div#camp-tuition > h1 {
     
     text-align: left;
     padding: 10px;
-    color:#717171;
+
     margin-top: 1%;
 }
 
@@ -180,7 +180,7 @@ div#camp-tuition > p, div#camp-tuition > h1 {
     position: absolute;
     bottom: 8px;
     width: 44%;
-    left: 111px;
+    left: 63px;
     /* text-align: center; */
 }
 .all{
@@ -319,4 +319,6 @@ div#camp-tuition > p, div#camp-tuition > h1 {
 .download:hover {
     background-color: #eee;
     color: #a21417;
+    border: #a21417;
+    border: 0.2px solid #a51417;
   } 
