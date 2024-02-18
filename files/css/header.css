@@ -59,7 +59,7 @@
    
     /* display: flex; */
     /* float: left; */
-    top: 13px;
+    top: 15px;
     position: relative;
     font-size: 13px;
     color: #314852;;
@@ -195,7 +195,7 @@ color:rgb(180, 180, 180);
 .right a {
     position: relative;
     color: #eee;
-    top: 3px;
+    top: 0px;
     font-weight: 600;
 }
 .right:hover a{

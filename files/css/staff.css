@@ -1,3 +1,31 @@
 @import url("common.css");
 @import url("staff_entry.css");
 @import url("side_menu.css");
+.individual-staff-member {
+  display:grid;
+  grid-template-columns: auto auto;
+}
+.individual-staff-member-data p{
+    overflow: hidden;
+    font-size: 16px;
+    text-align: left;
+    
+}
+h3 {
+    text-align: left;
+}
+
+  .individual-staff-member {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    display: grid;
+     
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+  }
+
+  .individual-staff-member img {
+    
+    height: auto;
+  }

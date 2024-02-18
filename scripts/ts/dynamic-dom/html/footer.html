@@ -1,15 +1,30 @@
 <footer id="colophon" class="footer" role="contentinfo">
   <div class="container">
     <div class="footer-widgets">
-      <aside class="widget site-contact">
-        <h2 class="footer-widget-title">Nursery School</h2>
-        <p>6926 Forest Park Parkway</p>
-        <p>St. Louis, MO 63130</p>
-        <p class="phone">314-935-6689 <span>|</span> Fax: 314-935-7249</p>
-        <p>
-          <a href="files/mailto:nursery@wustl.edu">nursery@wustl.edu</a>
-        </p>
-      </aside>
+      <div class="contact-section">
+        <h1>Contact Us</h1>
+        <ul>
+<li>Address: 6926 Forest Park Parkway, St. Louis, MO 63130</li>
+<li>Phone:
+314-935-6689</li>
+<li>Fax:
+314-935-7249</li>
+<li>Email:
+nursery@wustl.edu</li>
+<br>
+        </ul>
+        <form id="contact-form" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 
       <div class="widget-wrapper">
         <aside id="text-4" class="widget widget_text widget-count-2">
