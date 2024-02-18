@@ -67,22 +67,35 @@ main p {
 
 #camp-date {
     text-align: left;
-    background-color: #496B7B;
     padding: 10px;
     color: white;
-    margin-top: 4%;
+    margin-top: 1%;
     /* color: white; */
 }
 
 #camp-tuition {
     text-align: left;
-    background-color: #a51417;
     padding: 10px;
     color: white;
-    margin-top: 4%;
+    margin-top: 1%;
     /* color: white; */
 }
 
+#hours{
+    background-color: #a51417;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    margin-top: 1%;
+}
+
+#bear-tracks{
+    background-color: #496B7B;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    margin-top: 1%;
+}
 
 
 * {box-sizing:border-box}
@@ -262,5 +275,5 @@ main p {
     padding: 10px;
     color: white;
     margin-top: 4%;
-    /* color: white; */
+
 }
