@@ -1,2 +1,17 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+#page-content {
+    padding: 4%;
+}
+
+ul {
+    margin: 2em;
+    list-style-position: inside;
+    list-style: circle;
+}
+
+li {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
