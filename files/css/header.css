@@ -52,7 +52,9 @@
     font-family: Arial;
 }
 
-
+.totheright{
+    right:10%;
+}
 /* Links inside the navbar */
 
 .navbar a {
@@ -64,7 +66,7 @@
     font-size: 13px;
     color: #314852;;
     text-align: center;
-    margin: 6px;
+
     padding: 8px 10px;
     text-decoration: none;
     font-weight: 600;
@@ -141,7 +143,7 @@ navbar a:active,
     display: none; 
     position: absolute;
     /* height: auto; */
-    min-width: 125px;
+    min-width: 178px;
     background-color: #585858e9;
     box-shadow: 2px 15px 11px 0px rgb(8 6 0 / 75%);
     z-index: 2;
