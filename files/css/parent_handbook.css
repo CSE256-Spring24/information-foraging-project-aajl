@@ -1,5 +1,6 @@
 @import url("common.css");
 @import url("side_menu.css");
+@import url("accordian.css");
 
 #page-content {
     padding: 4%;
