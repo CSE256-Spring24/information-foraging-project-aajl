@@ -33,7 +33,6 @@
     width: 100%;
     position: relative;
     z-index: -1;
-
 }
 
 
@@ -96,7 +95,6 @@ main h2{
 .art {
     text-align: left;
     background-color: #a51417;
-
     color: #e6e4e4;
     margin-top: 4%;
 }
@@ -142,7 +140,7 @@ main p{
     font-size: 16px;
 }
 
-/* Additional styling for left and right columns */
+/* Added columns for styling */
 .spanish .content-columns,
 .science .content-columns,
 .art .content-columns,
@@ -165,10 +163,21 @@ main p{
   padding: 0 1%;
 }
 
-/* Additional styling for better spacing */
 .spanish .right-column,
 .science .right-column,
 .art .right-column,
 .music .right-column {
   margin-top: 20px;
+}
+
+#table-of-contents {
+    background-color: #a51417;
+    color: white;
+    padding: 4%;
+    margin: 1% 8%;
+    width: 500px;
+}
+
+#table-of-contents h2 {
+    color: white;
 }
