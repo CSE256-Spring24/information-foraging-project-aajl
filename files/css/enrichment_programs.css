@@ -170,12 +170,22 @@ main p{
   margin-top: 20px;
 }
 
+.wrapper {
+    padding-top: 12%;
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
 #table-of-contents {
     background-color: #a51417;
     color: white;
-    padding: 4%;
-    margin: 1% 8%;
-    width: 500px;
+    padding: 2.5% 4%;
+    margin: -2% 10%;
+    width: 600px;
+    text-align: left;
+    
 }
 
 #table-of-contents h2 {
