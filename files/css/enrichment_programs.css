@@ -1,5 +1,4 @@
 @import url("common.css");
-@import url("side_menu.css");
 @import url("staff_entry.css");
 
 .image-container {
@@ -53,7 +52,6 @@
     text-align: left;
     background-color: #496B7B;
     padding-left: 10%;
-    padding-right: 40%;
     padding-top: 5%;
     padding-bottom: 5%;
     color: #e6e4e4;
@@ -62,26 +60,20 @@
 }
 .science{
     text-align: left;
-    
     padding-left: 10%;
-    padding-right: 40%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 .art {
     text-align: left;
-    
     padding-left: 10%;
-    padding-right: 40%;
     padding-top: 5%;
     padding-bottom: 5%;
 
 }
 .music{
     text-align: left;
-    
     padding-left: 10%;
-    padding-right: 40%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -132,7 +124,7 @@ main h2{
 }
 
 .individual-staff-member {
-    width: 30%; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
     margin-bottom: 20px; /* Adjust as needed */
     box-sizing: border-box;
 }
@@ -148,4 +140,35 @@ main h2{
 }
 main p{
     font-size: 16px;
+}
+
+/* Additional styling for left and right columns */
+.spanish .content-columns,
+.science .content-columns,
+.art .content-columns,
+.music .content-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.spanish .left-column,
+.science .left-column,
+.art .left-column,
+.music .left-column,
+.spanish .right-column,
+.science .right-column,
+.art .right-column,
+.music .right-column {
+  box-sizing: border-box;
+  width: 48%;
+  padding: 0 1%;
+}
+
+/* Additional styling for better spacing */
+.spanish .right-column,
+.science .right-column,
+.art .right-column,
+.music .right-column {
+  margin-top: 20px;
 }
